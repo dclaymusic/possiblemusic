@@ -1,0 +1,60 @@
+html {
+    font-family: monospace
+}
+
+header {
+    display: block;
+    background-color: rgb(255, 244, 244);
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+/* 
+input[type=button] {
+    font-family: monospace;
+
+} */
+
+button {
+    line-height: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: monospace;
+    text-overflow: wrap;
+    width: auto;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+}
+
+button:hover{
+    background-color: rgb(162, 162, 162);
+}
+
+button:active{
+    background-color: black;
+    color: white;
+  }
+
+
+
+.col {
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    text-overflow: wrap;
+    flex-direction: row;
+    height: auto;
+    flex: 1 1 auto;
+    display: block;
+    padding: 1rem;
+    
+}
+
+#col1 { background-color: rgb(183, 255, 247); }
+#col2 { background-color: rgb(209, 209, 253); }
+#col3 { background-color: rgb(233, 255, 233); }
